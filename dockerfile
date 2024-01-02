@@ -1,5 +1,5 @@
-from python:3.11-slim-buster
+FROM python:3.11-slim-buster
+WORKDIR .
 COPY . .
 RUN pip install -r Requirements.txt
-WORKDIR /ctip
-CMD ['python','manage.py','runserver','0.0.0.0:8100']
+CMD ["python","manage.py","runserver","0.0.0.0:8100"]

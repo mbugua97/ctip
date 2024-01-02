@@ -1,4 +1,8 @@
 /build
 ctip/test
 .env
-.procfile
+procfile
+dockerfile
+docker-compose.yml
+db.sqlite3
+.dockerignore
